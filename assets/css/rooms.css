@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body { min-height: 100%; }
+
+body {
+  background: #201d17;
+  color: #201d17;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+#block {
+  padding: 73px;
+  height: 784px;
+}
+
+#north-half, #south-half {
+  height: 300px;
+  background: #e1e9e0;
+  border: 16px solid #d3ddd1;
+}
+
+#north-half {
+  height: 500px;
+  border-top: none;
+  margin-left: 20%;
+  margin-top: -16px;
+}
+
+.conference-room {
+  position: absolute;
+  padding: 12px;
+  border: 6px solid #8fae87;
+  background: #a2bc9a;
+}
+
+.conference-room .symbol {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.conference-room .capacity {
+  position: absolute;
+  padding: 6px;
+  font-size: 24px;
+  line-height: 80%;
+  right: 0;
+  top: 0;
+}
+
+.conference-room .name {
+  font-size: 20px;
+  position: absolute;
+  bottom: 4px;
+}
+
+#c {
+  top: 90px;
+  left: 55%;
+  width: 6%;
+  height: 110px;
+}
+
+#ar {
+  left: 65%;
+  top: 360px;
+  width: 8%;
+  height: 110px;
+}
+
+#kr {
+  top: 360px;
+  left: 73%;
+  width: 8%;
+  height: 110px;
+}
+
+#pt {
+  top: 290px;
+  left: 23%;
+  width: 7%;
+  height: 130px;
+}
+#ti {
+  top: 420px;
+  left: 23%;
+  width: 7%;
+  height: 110px;
+}
+#ag {
+  top: 530px;
+  left: 23%;
+  width: 7%;
+  height: 110px;
+}
+#pd {
+  top: 640px;
+  left: 23%;
+  width: 7%;
+  height: 110px;
+}
+#au {
+  top: 750px;
+  left: 23%;
+  width: 7%;
+  height: 110px;
+}
+#zn {
+  top: 780px;
+  width: 6%;
+  height: 80px;
+  left: 30%;
+}
+
+#zn .symbol {
+  font-size: 48px;
+  line-height: 22px;
+  margin-left: -2px;
+}
+
+#hg {
+  top: 750px;
+  width: 7%;
+  height: 110px;
+  left: 36%;
+}
+
+#co {
+  top: 350px;
+  width: 7%;
+  height: 110px;
+  left: 37%;
+}
+
+#cd {
+  top: 460px;
+  width: 7%;
+  height: 110px;
+  left: 37%;
+}
+
+#ne {
+  top: 350px;
+  width: 7%;
+  height: 110px;
+  left: 44%;
+}
+
+#he {
+  top: 460px;
+  width: 7%;
+  height: 110px;
+  left: 44%;
+}
+
+#cu {
+  top: 570px;
+  width: 4%;
+  height: 90px;
+  left: 37%;
+}
+
+#ni {
+  top: 570px;
+  width: 3%;
+  height: 90px;
+  left: 41%;
+}
+
+#ni .capacity,
+#ni .name,
+#cu .capacity,
+#cu .name {
+  font-size: 18px;
+}
+
+#sn {
+  top: 570px;
+  width: 4%;
+  height: 90px;
+  left: 47%;
+}
+
+#ni .symbol,
+#fe .symbol {
+  font-size: 32px;
+  line-height: 16px;
+  margin: 20px 0 0 -2px;
+}
+
+#cu .symbol,
+#sn .symbol {
+  font-size: 42px;
+  line-height: 18px;
+  margin: 12px 0 0 -2px;
+}
+
+#ni, #fe, #sn, #cu {
+  padding: 6px;
+}
+
+#sn .capacity, 
+#sn .name,
+#cu .capacity, 
+#cu .name {
+  font-size: 16px;
+}
+
+#ni .capacity,
+#ni .name,
+#fe .capacity,
+#fe .name {
+  font-size: 13px;
+  margin-left: -2px;
+}
+
+#fe {
+  top: 570px;
+  width: 3%;
+  height: 90px;
+  left: 44%;
+}
